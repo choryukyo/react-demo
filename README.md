@@ -1,2 +1,2 @@
-# APG-Demo
-APG-Demo for EC2
+# React-Demo
+React-Demo for EC2
