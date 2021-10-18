@@ -45,6 +45,11 @@ export default function Navigation() {
                 <ListItemText primary="為替取引" />
             </ListItem>
         </Link>
+        <Link href="/userList" onClick={toggleNavigation(false)}>
+            <ListItem>
+                <ListItemText primary="ユーザ一覧(RestAPI)" />
+            </ListItem>
+        </Link>
       </List>
     </Box>
   );

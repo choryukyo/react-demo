@@ -6,6 +6,7 @@ import Torihiki from './views/Torihiki'
 import Pfer from './views/Pfer'
 import Uketuke from './views/Uketuke'
 import Navigation from './views/Navigation'
+import UserList from './views/UserList'
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
       </Route>
       <Route path="/torihiki" exact>
         <Torihiki />
+      </Route>
+      <Route path="/userList" exact>
+        <UserList />
       </Route>
     </BrowserRouter>
   );
